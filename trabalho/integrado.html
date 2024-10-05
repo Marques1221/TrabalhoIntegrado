@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="oi.css"> 
+      <style>
+       body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: #3cb371;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .oi {
+            width: 100px;
+            margin-top: -500px;
+            margin-left: 0px;
+        }
+        .fale-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.fale {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000 ;
+    text-decoration: none;
+    background-color: #3cb371;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+       
+
+.button-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.voa {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background-color: #3cb371;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3cb371;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    font-family:'Great Vibes', cursive;
+    color: #666;
+    margin-bottom: 20px;
+}
+ 
+        
+        
+        
+        
+        footer {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img class="oi" src="oi.png" alt="Logo do Projeto"></h1>
+            <div class="fale-container">
+                <img src="avatar.png" alt="Avatar" class="avatar">
+                <a class="fale" href="fale.html">FALE CONOSCO</a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <h2>UM POUCO SOBRE NÓS!</h2>
+            <p>O projeto propõe que os moradores plantem mudas de árvores em troca da realização de projetos municipais de sua preferência. Os participantes se cadastram no site, escolhem um projeto e se comprometem a plantar mudas semanalmente. Mensalmente, o projeto com mais mudas plantadas é selecionado para implementação. Esta iniciativa não só fortalece o envolvimento cívico, mas também beneficia o meio ambiente, incentivando a arborização urbana de forma colaborativa!</p>
+            
+            <h3>PROJETOS QUE ESTÃO SENDO MAIS VOTADOS</h3>
+            <div class="projects">
+                <div class="project">
+                    <img src="hospital1.jpg" alt="Projeto Hospital">
+                    <h4>2ª ETAPA DO HOSPITAL REGIONAL</h4>
+                </div>
+                <div class="project">
+                    <img src="escola.jpg" alt="Projeto Escola">
+                    <h4>REFORMA E AMPLIAÇÃO DA ESCOLA LUCIA MORO</h4>
+                </div>
+                <div class="project">
+                    <img src="onibus.jpg" alt="Projeto Ônibus">
+                    <h4>FORNECIMENTO E INSTALAÇÃO DE ABRIGOS PROS PONTOS DE ONIBUS</h4>
+                    <div class="button-container">
+                        <a class="voa" href="vote.html">Quer votar também?</a>
+                    </div>
+                </div>
+            </div>
+        <p>&copy; 2023 - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
